@@ -1,0 +1,29 @@
+
+temp <- c(29.8 , 32.4 , 35.3, 27.2, 29.3, 30.4)
+
+hist(temp, 
+     main = "Histogram of Temperature",
+     xlab = "Temperature (C)",
+     ylab = "Frequency",
+     col = "lightblue",
+     border = "black",
+        breaks = 9,
+        xlim = c(27, 36),     
+     )
+
+set.seed(123) # Para reproducibilidad
+tem <- rnorm(100, mean = 30, sd = 2)
+
+
+hist(tem, 
+     main = "Histogram of Temperature",
+     xlab = "Temperature (C)",
+     ylab = "Frequency",
+     col = "lightblue",
+     border = "black",
+        breaks = 9,
+        xlim = c(27, 36),     
+     )
+
+
+   
